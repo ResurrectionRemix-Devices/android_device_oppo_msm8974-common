@@ -180,7 +180,7 @@ TARGET_TC_ROM := 4.8-linaro
 
 TARGET_TC_KERNEL := 5.1-linaro
 
-BLISSIFY := true
+RROPTI := true
 
 RR_O3 := true
 
