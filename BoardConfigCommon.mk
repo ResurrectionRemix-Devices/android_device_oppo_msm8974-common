@@ -176,9 +176,8 @@ BOARD_SEPOLICY_DIRS += \
 -include vendor/oppo/msm8974-common/BoardConfigVendor.mk
 
 #RR customizations
-TARGET_TC_ROM := 4.8-linaro
+TARGET_TC_ROM := 4.9-linaro
 
-TARGET_TC_KERNEL := 5.1-linaro
 
 RROPTI := true
 
