@@ -180,7 +180,7 @@ TARGET_TC_ROM := 4.9-linaro
 
 TARGET_TC_KERNEL := 4.10-sm
 
-
+#RR
 RROPTI := true
 
 RR_O3 := true
