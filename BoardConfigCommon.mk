@@ -178,7 +178,7 @@ BOARD_SEPOLICY_DIRS += \
 #RR customizations
 TARGET_TC_ROM := 4.9-linaro
 
-TARGET_TC_KERNEL := 5.0-sm
+TARGET_TC_KERNEL := 5.1-gcc
 
 #RR
 RROPTI := true
