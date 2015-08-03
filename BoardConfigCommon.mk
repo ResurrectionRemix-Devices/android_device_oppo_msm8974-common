@@ -181,6 +181,8 @@ TARGET_TC_ROM := 5.1
 
 TARGET_TC_KERNEL := 6.0
 
+USE_CLANG_QCOM := true
+
 #RR
 RROPTI := true
 
