@@ -1,48 +1,10 @@
 [
   { 
-    "remote": "github",
     "repository": "android_device_oppo_common",
     "target_path": "device/oppo/common"
   },
   {  
-    "remote": "rrd",
     "repository": "android_kernel_oneplus_msm8974",
     "target_path": "kernel/oneplus/msm8974"
-  },
-  { 
-    "remote": "rr",
-    "repository": "android_system_core",
-    "target_path": "system/core",
-     "revision": "optimized"
-  },
-  {
-    "remote": "rr",
-    "repository": "prebuilt_ndk",
-    "target_path": "prebuilt/ndk",
-    "revision": "optimized"
-  },
-  {
-    "remote": "vrd",
-    "repository": "android_system_extras_su",
-    "target_path": "system/extras/su",
-    "revision": "cm-12.1"
-  },
- {
-    "remote": "vrd",
-    "repository": "android_external_bluetooth_bluedroid",
-    "target_path": "external/bluetooth/bluedroid",
-    "revision": "cm-12.1"
-  },
- {
-    "remote": "rrd",
-    "repository": "android_frameworks_av",
-    "target_path": "frameworks/av",
-    "revision": "cm-12.1"
-  },
-  {
-    "remote": "rr",
-    "repository": "android_build",
-    "target_path": "build",
-    "revision": "optimized-stable"
   }
 ]
