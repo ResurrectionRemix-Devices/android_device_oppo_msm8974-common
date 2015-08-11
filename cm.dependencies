@@ -17,8 +17,8 @@
   },
   {
     "remote": "rr",
-    "repository": "platform_ndk",
-    "target_path": "platform/ndk",
+    "repository": "prebuilt_ndk",
+    "target_path": "prebuilt/ndk",
     "revision": "optimized"
   },
   {
