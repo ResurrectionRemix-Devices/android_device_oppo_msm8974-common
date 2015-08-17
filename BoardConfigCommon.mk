@@ -179,7 +179,7 @@ BOARD_SEPOLICY_DIRS += \
 #RR customizations
 TARGET_TC_ROM := 5.1
 
-TARGET_TC_KERNEL := 6.0-linaro
+TARGET_TC_KERNEL := 6.0-uber-linaro
 
 USE_CLANG_QCOM := true
 
