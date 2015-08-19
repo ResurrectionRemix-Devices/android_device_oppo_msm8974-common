@@ -181,16 +181,6 @@ TARGET_TC_ROM := 5.1
 
 TARGET_TC_KERNEL := 6.0-uber-linaro
 
-USE_CLANG_QCOM := true
-
-CLANG_QCOM_COMPILE_BIONIC := true
-
-CLANG_QCOM_COMPILE_MIXED := true
-
-RR_LTO := true
-
-LTO_COMPRESSION_LEVEL := 3
-
 #RR
 RROPTI := true
 
