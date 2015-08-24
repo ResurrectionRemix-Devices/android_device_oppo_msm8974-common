@@ -176,21 +176,9 @@ BOARD_SEPOLICY_DIRS += \
 -include vendor/oppo/msm8974-common/BoardConfigVendor.mk
 
 #RR customizations
-TARGET_TC_ROM := 5.2
+TARGET_TC_ROM := 5.1
 
-TARGET_TC_KERNEL := 6.0
-
-USE_CLANG_QCOM := true
-
-USE_CLANG_QCOM_VERBOSE := true
-
-CLANG_QCOM_COMPILE_BIONIC := true
-
-CLANG_QCOM_COMPILE_MIXED := true
-
-RR_LTO := true
-
-LTO_COMPRESSION_LEVEL := 3
+TARGET_TC_KERNEL := 6.0-uber-linaro
 
 #RR
 RROPTI := true
