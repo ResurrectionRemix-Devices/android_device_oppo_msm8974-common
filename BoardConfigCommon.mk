@@ -1,4 +1,4 @@
-#
+
 # Copyright (C) 2014 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -193,6 +193,6 @@ RR_KRAIT := true
 
 RR_PIPE := true
 
-RR_GCC_VERSION_EXP := $(TARGET_TC_ROM)
+TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)
 
 RR_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)
