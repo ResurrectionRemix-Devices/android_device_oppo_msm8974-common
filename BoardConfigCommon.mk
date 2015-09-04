@@ -173,3 +173,25 @@ BOARD_SEPOLICY_DIRS += \
         device/oppo/msm8974-common/sepolicy
 
 -include vendor/oppo/msm8974-common/BoardConfigVendor.mk
+
+#RR customizations
+TARGET_TC_ROM := 5.2
+
+TARGET_TC_KERNEL := 4.9-cortex-a15
+
+#RR
+RROPTI := true
+
+RR_O3 := true
+
+RR_STRICT := true
+
+RR_GRAPHITE := true
+
+RR_KRAIT := true
+
+RR_PIPE := true
+
+TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)
+
+RR_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)
