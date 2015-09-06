@@ -148,6 +148,9 @@ EXTENDED_FONT_FOOTPRINT := true
 # Enable transparent compression in the build
 # TARGET_TRANSPARENT_COMPRESSION_METHOD := lz4
 
+#LZMA compression
+WITH_LZMA_OTA:= true
+
 # Enable dexpreopt to speed boot time
 ifeq ($(HOST_OS),linux)
   ifeq ($(call match-word-in-list,$(TARGET_BUILD_VARIANT),user),true)
